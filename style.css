@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+/* nav1 ------------------------------- */
+.nav1{
+    background-color: rgba(235, 235, 235, 0.824);
+    padding: 15px 0;
+}
+.nav1 .nav1-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 .nav1-in .left i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+.nav1 .nav1-in .left i:hover{
+    color: #f16821;
+}
+
+.nav1 .nav1-in .right p{
+    display: inline;
+    margin: 0 10px;
+
+}
+
+.nav1 .nav1-in .right i{
+    color: #f16821;
+    margin: 0 5px;
+}
+
+
+/* nav2 --------------------- */
+.nav2{
+    padding: 20px 0;
+}
+.nav2 .nav2-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 .nav2-in .right li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+
+.nav2 .nav2-in .right .active{
+    color: #f16821;
+}
