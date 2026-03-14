@@ -47,6 +47,9 @@
 /* nav2 --------------------- */
 .nav2{
     padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .nav2 .nav2-in{
     display: flex;
@@ -61,4 +64,128 @@
 
 .nav2 .nav2-in .right .active{
     color: #f16821;
+}
+
+
+
+/* slider ------------------------------- */
+
+.slider {
+    background-image: url(./images/slider.jpg);
+    color: white;
+    padding: 150px 0;
+    background-position: -242px -114px;
+}
+.slider .text{
+    width: 50%;
+}
+
+.slider .text h1{
+    font-size: 80px;
+}
+
+.slider .text p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.slider .text button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+.slider .text .btn1{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.slider .text .btn1:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+.slider .text .btn2{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+.slider .text .btn2:hover{
+     border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* Products -------------------------------- */
+
+.Products{
+    margin: 50px 0;
+}
+.Products .text{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+
+}
+
+
+.Products .text h4,.Products .text p{
+    color: #adb5bd;
+}
+
+
+.Products .Products-in .box1{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Products .Products-in .box1 img{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.Products .Products-in .box1 p{
+    margin: 10px 0;
+}
+
+.Products .Products-in .box1 button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.Products .Products-in .box1 .btn1{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.Products .Products-in .box1 .btn1:hover{
+   background-color: white;
+    color:black ;
+    border: 2px solid black;
+}
+
+
+.Products .Products-in .box1 .btn2{
+    background-color: white;
+    color:black ;
+    border: 2px solid black;
+}
+
+.Products .Products-in .box1 .btn2:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.Products .Products-in{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
