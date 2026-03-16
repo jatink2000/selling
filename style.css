@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     width: 100%;
     max-width: 1180px;
     margin: auto;
@@ -13,56 +13,59 @@
 
 
 /* nav1 ------------------------------- */
-.nav1{
+.nav1 {
     background-color: rgba(235, 235, 235, 0.824);
     padding: 15px 0;
 }
-.nav1 .nav1-in{
+
+.nav1 .nav1-in {
     display: flex;
     justify-content: space-between;
 }
 
-.nav1 .nav1-in .left i{
+.nav1 .nav1-in .left i {
     background-color: black;
     color: white;
     padding: 8px;
     border-radius: 50%;
 }
-.nav1 .nav1-in .left i:hover{
+
+.nav1 .nav1-in .left i:hover {
     color: #f16821;
 }
 
-.nav1 .nav1-in .right p{
+.nav1 .nav1-in .right p {
     display: inline;
     margin: 0 10px;
 
 }
 
-.nav1 .nav1-in .right i{
+.nav1 .nav1-in .right i {
     color: #f16821;
     margin: 0 5px;
 }
 
 
 /* nav2 --------------------- */
-.nav2{
+.nav2 {
     padding: 20px 0;
     position: sticky;
     top: 0;
     background-color: white;
 }
-.nav2 .nav2-in{
+
+.nav2 .nav2-in {
     display: flex;
     justify-content: space-between;
 }
 
-.nav2 .nav2-in .right li{
+.nav2 .nav2-in .right li {
     display: inline-block;
     padding: 10px 15px;
 }
 
 
-.nav2 .nav2-in .right .active{
+.nav2 .nav2-in .right .active {
     color: #f16821;
 }
 
@@ -76,44 +79,45 @@
     padding: 150px 0;
     background-position: -242px -114px;
 }
-.slider .text{
+
+.slider .text {
     width: 50%;
 }
 
-.slider .text h1{
+.slider .text h1 {
     font-size: 80px;
 }
 
-.slider .text p{
+.slider .text p {
     font-size: 20px;
     margin: 20px 0;
 }
 
-.slider .text button{
+.slider .text button {
     padding: 10px 25px;
     text-transform: uppercase;
 }
 
-.slider .text .btn1{
+.slider .text .btn1 {
     border: 2px solid white;
     background-color: transparent;
     color: white;
 }
 
-.slider .text .btn1:hover{
+.slider .text .btn1:hover {
     border: 2px solid white;
     background-color: white;
     color: black;
 }
 
-.slider .text .btn2{
+.slider .text .btn2 {
     border: 2px solid white;
     background-color: white;
     color: black;
 }
 
-.slider .text .btn2:hover{
-     border: 2px solid white;
+.slider .text .btn2:hover {
+    border: 2px solid white;
     background-color: transparent;
     color: white;
 }
@@ -121,10 +125,11 @@
 
 /* Products -------------------------------- */
 
-.Products{
+.Products {
     margin: 50px 0;
 }
-.Products .text{
+
+.Products .text {
     text-align: center;
     width: 40%;
     margin: auto;
@@ -132,60 +137,147 @@
 }
 
 
-.Products .text h4,.Products .text p{
+.Products .text h4,
+.Products .text p {
     color: #adb5bd;
 }
 
 
-.Products .Products-in .box1{
+.Products .Products-in .box1 {
     width: 32%;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.Products .Products-in .box1 img{
-    width: 100%;
-    max-width: 500px;
+.Products .Products-in .box1:hover img{
+    transform: scale(1.2);
+    transition: all 1s;
+
+    outline: 4px solid orangered;
+    outline-offset: -60px;
 }
 
 
-.Products .Products-in .box1 p{
+.Products .Products-in .box1 .image{
+    overflow: hidden;
+}
+
+
+.Products .Products-in .box1 img {
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+
+.Products .Products-in .box1 p {
     margin: 10px 0;
 }
 
-.Products .Products-in .box1 button{
+.Products .Products-in .box1 button {
     padding: 5px 20px;
     text-transform: uppercase;
 }
 
-.Products .Products-in .box1 .btn1{
+.Products .Products-in .box1 .btn1 {
     background-color: black;
     color: white;
     border: 2px solid black;
 }
 
-.Products .Products-in .box1 .btn1:hover{
-   background-color: white;
-    color:black ;
-    border: 2px solid black;
-}
-
-
-.Products .Products-in .box1 .btn2{
+.Products .Products-in .box1 .btn1:hover {
     background-color: white;
-    color:black ;
+    color: black;
     border: 2px solid black;
 }
 
-.Products .Products-in .box1 .btn2:hover{
+
+.Products .Products-in .box1 .btn2 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.Products .Products-in .box1 .btn2:hover {
     background-color: black;
     color: white;
     border: 2px solid black;
 }
 
-.Products .Products-in{
+.Products .Products-in {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
 }
+
+
+/* updates -------------------------------- */
+
+.updates{
+    background-image: url(./images/slider.jpg);
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    background-position: -20px -50px;
+}
+
+
+.updates .text{
+    width: 50%;
+    margin: auto;
+}
+
+.updates .text input{
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.updates .text button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    margin-left: -8px;
+}
+
+.updates .text p{
+    font-size: 17px;
+}
+
+.updates .text button:hover{
+    background-color: white;
+    border: 2px solid white;
+   
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* transform :  */
+
+/* .red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+
+}
+
+.red:hover {
+    transform: rotate(-50deg);
+    transform: scale(0.6);
+
+    transform: skew(20deg);
+
+    transition: all 1s;
+} */
