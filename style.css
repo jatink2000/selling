@@ -263,21 +263,63 @@
 
 
 
-/* transform :  */
 
-/* .red {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-
-
+/* Sale --------------------------------- */
+.Sale{
+    background-image: url(./images/slider.jpg);
+    margin: 50px 0;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
 }
 
-.red:hover {
-    transform: rotate(-50deg);
-    transform: scale(0.6);
+.Sale .text{
+    width: 50%;
+    margin: auto;
+}
+.Sale .text h1{
+    margin: 10px 0;
+}
 
-    transform: skew(20deg);
+.Sale .text p{
+    font-size: 19px;
+}
+.Sale .counter{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
 
-    transition: all 1s;
-} */
+.Sale .counter .box1{
+    background-color: white;
+    width: 16%;
+    padding: 20px 0;
+    border-radius: 10px;
+    
+}
+
+.Sale .counter .box1 h1{
+    color:#46ddb0 ;
+    
+}
+
+.Sale .counter .box1 p{
+    color: #b3b3b3;
+}
+
+
+.Sale .text button{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Sale .text button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
