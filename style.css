@@ -323,3 +323,125 @@
 
 
 
+
+/* Testimonials -------------------------- */
+.Testimonials .text{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.Testimonials .text h4,.Testimonials .text p{
+    color: #b3b3b3;
+}
+
+.Testimonials .text img{
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 40px 0;
+}
+
+.Testimonials .text p{
+    font-size: 25px;
+}
+
+
+
+/* Blog ------------------------------ */
+
+.Blog{
+    margin: 50px 0;
+}
+.Blog .text{
+    text-align: center;
+}
+
+.Blog .Blog-in .box1{
+    width: 32%;
+}
+
+.Blog .Blog-in .box1 img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.Blog .Blog-in .box1 p{
+    margin: 10px 0;
+    color: #adb5bd;
+}
+
+.Blog .Blog-in .box1 .lastp{
+    color: orangered;
+}
+
+
+.Blog .Blog-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Contact ------------------------------ */
+.Contact{
+    background-color: rgb(216, 216, 216);
+    padding: 50px 0;
+}
+.Contact .text{
+    text-align: center;
+}
+
+
+.Contact .Contact-in{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+.Contact .Contact-in .firstname{
+    width: 48%;
+}
+
+.Contact .Contact-in .name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Contact .Contact-in input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.Contact .Contact-in input:focus{
+    border: none;
+    outline: 1px solid orangered;
+}
+
+.Contact .Contact-in textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.Contact .Contact-in button{
+    padding: 15px 25px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+
+.Contact .Contact-in button:hover{
+     background-color: white;
+    color: black;
+}
