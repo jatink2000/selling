@@ -258,9 +258,89 @@
 
 
 
+/* Featured ---------------------- */
+
+.Featured .text{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.Featured .Featured-in{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Featured .Featured-in .box1{
+    width: 45%;
+}
+
+.Featured .Featured-in .box1 img{
+    width: 100%;
+    max-width: 800px;
+}
+
+.Featured .Featured-in .box2{
+    width: 45%;
+    position: relative;
+}
+
+
+.Featured .Featured-in .box2 .back{
+    font-size: 70px;
+    color: rgb(200, 200, 200);
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+}
+
+.Featured .Featured-in .box2 h2{
+    margin-bottom: 20px;
+}
+
+.Featured .Featured-in .box2 p{
+    font-size: 17px;
+    line-height: 30px;
+}
 
 
 
+
+/* about --------------------------------- */
+
+.about .about-in{
+    display: flex;
+    justify-content: space-between;
+}
+.about .left{
+    width: 60%;
+    position: relative;
+}
+
+.about .left .textbox{
+    background-color: #46ddb0;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+    padding: 20px;
+}
+
+.about .left .textbox h1{
+    font-size: 60px;
+}
+
+.about .left img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.about .right{
+    width: 25%;
+}
 
 
 
@@ -519,4 +599,31 @@
 .footer .footer-in{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+.box111{
+    width: 32%;
+    position: relative;
+}
+
+.box111:hover .icon{
+    display: block;
+}
+.box111 .image img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.box111 .icon{
+    background-color: rgba(244,47,44,0.8);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 225px 0;
+    display: none;
 }
